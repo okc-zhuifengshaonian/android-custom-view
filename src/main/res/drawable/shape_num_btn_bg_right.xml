@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#F5F7FA"/>
+    <!-- 把右上角和右下角设置成圆角，而左上角和左下角默认，是直角 -->
+    <corners
+        android:topRightRadius="10dp"
+        android:bottomRightRadius="10dp"/>
+
+</shape>
